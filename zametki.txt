@@ -1,0 +1,25 @@
+                foreach (Uslugi uslugi in itemList1)
+                {
+                    Console.WriteLine(uslugi.nameS);
+                    Console.WriteLine(uslugi.tarifS);
+                    Console.WriteLine(uslugi.codeS);
+                    Console.WriteLine(uslugi.timeS);
+                    Console.WriteLine(" ");
+                }
+
+               
+                foreach (Item item in itemList)
+                {
+                    Console.WriteLine(item.name);
+                    Console.WriteLine(item.numberd);
+              //    Console.WriteLine(item.dolg);           //Отладочная часть
+              //    Console.WriteLine(item.DateStart);
+                    Console.WriteLine(item.DateEnd);
+                    Console.WriteLine(" ");
+
+                    /*  DateTime date = DateTime.Now;
+                      int mouth = 1;
+                      date += new TimeSpan(0, mouth, 0, 0); */
+                }
+                
+                
